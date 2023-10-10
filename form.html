@@ -1,0 +1,26 @@
+<html>
+    <head><title> How to built Form </title></head>
+    <body>
+        <h2>แบบ Form บันทึกข้อมูลนศ. </h2>
+        <form method=”post” action=”http://localhost/input.php”>
+            รหัสนักศึกษา : <input type="text" maxlength="10" /><br />
+            ชื่อ-นามสกุลนักศึกษา : <input type="text" size="50" /><br />
+            รหัส่ผ่าน : <input type="password" maxlength="6" size="6" /><br />
+            เพศ : <input type="radio" name="sex" value="1" /> ชาย<input type="radio" name="sex" value="2" /> หญิง <input type="radio" name="sex" value="3" /> ไม่ระบุเพศ<br />
+            วุฒิการศึกษา : <select>
+                <option>ประถมศึกษา
+                <option>มัธยมศึกษา
+                <option>ปริญญาตรี
+                <option>สูงกว่าปริญญาตรี
+                </select><br>
+            งานอดิเรก :<input type="checkbox" value="1" /> อ่านหนังสือ<input type="checkbox" value="2" /> ดูโทรทัศน์<input type="checkbox" value="3" /> เล่นกีฬา <input type="checkbox" value="4" /> นอน<br />
+            อัพโหลดข้อมูล : <input type="file" /> <br /><br>
+            <input type="submit" /> <input type="image" src="R.png" width="60px" height="20px" />
+            <input type="reset" /> <input type="button" value=" BACK" />
+        </form>
+        <a href="aboutme.html"><input type="button" value="Go page 1"></a>
+        <a href="YYY.html"><input type="button" value="Go page 2"></a>
+        <a href="Titan.html"><input type="button" value="Go page 3"></a>
+
+    </body>
+</html>
